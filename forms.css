@@ -1,0 +1,71 @@
+body {
+	font-family: sans-serif;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 13.33%;
+}
+header {
+	background-color: rgba(89, 34, 108, 0.8);
+	width: fit-content;
+	padding: 30px;
+}
+footer {
+	background-color: white;
+	width: fit-content;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px grey;
+}
+
+h1 {
+	background-color: rgb(225, 17, 17);
+	color: white;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 500;
+	padding: 5px 0px;
+}
+.gender-container {
+	background-color: rgba(6, 132, 6, 0.681);
+	color: white;
+	display: inline-block;
+	text-align: center;
+	width: 17rem;
+	border-radius: 5px;
+}
+.gender-left {
+	display: inline-block;
+	text-align: center;
+	padding-right: 10px;
+}
+.gender-right {
+	display: inline-block;
+	text-align: center;
+	padding-left: 10px;
+}
+.sign-up {
+	border: none;
+	border-bottom: 2px solid grey;
+	width: 15rem;
+	padding: 20px;
+	font-size: 20px;
+	outline: 0em;
+}
+p {
+	border-bottom: 2px solid grey;
+	width: 17rem;
+}
+h3 {
+	text-align: center;
+
+	width: 17rem;
+	padding: 20px 3px;
+}
+.footer {
+	box-shadow: 0px 0px 5px grey;
+	width: 17rem;
+	border-radius: 8px;
+}
